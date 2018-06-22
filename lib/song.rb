@@ -26,17 +26,17 @@ class Song
     @@genres.uniq
   end
 
-  def self.genre_count
-    genre_count = {}
-    @@genres.each do |genre|
-      if genre_count[genre]
-       genre_count[genre] += 1    #sees genre is not in the hash, then it will add it
-     else
-       genre_count[genre] = 1     #sees genre IS in the hash, will not add it
-     end
-   end
-   genre_count
- end
+ #  def self.genre_count
+ #    genre_count = {}
+ #    @@genres.each do |genre|
+ #      if genre_count[genre]
+ #       genre_count[genre] += 1    #sees genre is not in the hash, then it will add it
+ #     else
+ #       genre_count[genre] = 1     #sees genre IS in the hash, will not add it
+ #     end
+ #   end
+ #   genre_count
+ # end
  #
  #  def self.artist_count
  #    artist_count = {}
