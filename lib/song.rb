@@ -1,7 +1,7 @@
 class Song
   attr_accessor :name, :artist, :genre
 
-  @@count = 0           #class variables need to be initialized so that the computer knows that class variable is a variable
+  # @@count = 0           #class variables need to be initialized so that the computer knows that class variable is a variable
   @@artists = []
   @@genres = []
 
@@ -9,7 +9,7 @@ class Song
     @name = name
     @artist = artist
     @genre = genre
-    @@count += 1
+    # @@count += 1
     @@artists << artist     #make sure students spell things correctly
     @@genres << genre
   end
